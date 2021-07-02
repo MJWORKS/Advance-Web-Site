@@ -1,0 +1,25 @@
+:root{
+    --cinza1:#587585;
+}
+
+*{
+    background-color: #697982;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+header .container .titulo{
+    margin-top:1%;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+}

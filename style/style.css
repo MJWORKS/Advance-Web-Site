@@ -1,0 +1,235 @@
+:root{
+    --cinza1:#283240;
+    --cinza2: #464141;
+    --vermelho:#d00000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* base */
+
+body{
+    background-color: #fff;
+
+}
+
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+header .logo{
+    margin-left: 8px;
+    font-weight: 400;
+    font-size: 40px;
+    color: #001A3C;
+    text-shadow: 1px 1px 1px #9d0208;
+
+
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--cinza1);
+    font-size: 20px;
+    margin-right: 10px;
+    transition: 0.4s;
+}
+
+header nav a:hover{
+    color: var(--vermelho);
+    text-shadow: 1px 1px 1px #9d0208;
+
+}
+
+.carrosel-filmes{
+    margin-top: 5px;  
+  }
+  
+/* CONTEÚDO PRINCIPAL DA PÁGINA */
+
+.conteudo-principal{
+    font-size: 20px;
+    background: linear-gradient(rgba(0,0,0,.20),rgba(0,0,0,.20)100%), url("../media/fundotec2.jpg");
+
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-principal .titulo{
+    font-size: 40px;
+    margin-top: 15%;
+    color: var(--vermelho);
+    text-shadow: 1px 1px 1px #03071e;
+
+}
+
+.botao{
+    background-color:rgba(0,0,0,.50);
+    border: none;
+    color: white;    
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    
+    margin-top: 3%;
+    cursor: pointer;
+    transition: .3s ease all;
+    }
+    
+    .botao:hover{
+        background-image: linear-gradient( 178.2deg,  rgba(118,8,23,1) 10.9%, rgba(158,12,33,1) 62.6% );
+        color: #fff;
+        
+    }
+    
+    .botao i{
+        margin-right: 8px;
+    }
+    
+    .container{
+        margin-left: 20px;
+    }
+    
+    .conteudo-principal .container{
+        width: 70%;
+    }
+    
+    .box-filme{
+        height: 100%;
+        width: 100%;
+    }
+
+    .desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .quem-somos .container{
+        width: 90%;
+        margin-top: 1%;
+    }
+
+    .quem-somos .container .titulo{
+        font-size: 35px;
+        color: #001A3C;
+    }
+
+    .cursos .container{
+        margin-top: 2%;
+    }
+
+    .cursos .container .titulo{
+        font-size: 35px;
+        color: var(--vermelho);
+    }
+   
+
+    footer .contato .container .titulo{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        font-size: 35px;
+        color: #001A3C;
+        margin-top:1%;
+    }
+
+    footer .contato .container .wats{
+    width: 100%;
+    height: 70px;
+    font-size: 40px;
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif;
+    color: #13a247;
+    text-shadow: 1px 1px 1px #013530;
+    border: solid 1.8px #128c7e;
+    border-radius: 8px;
+
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+
+    footer .contato .container .fac{
+    width: 100%;
+    height: 70px;
+    font-size: 40px;
+    margin-top: 1%;
+    font-family: 'Poppins', sans-serif;
+    color: #3b5998;
+    text-shadow: 1px 1px 1px #2f477a;
+    border: solid 1.8px #0f378d;
+    border-radius: 8px;
+
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+
+    footer .contato .container .tel{
+    width: 100%;
+    height: 70px;
+    font-size: 40px;
+    margin-top: 1%;
+    font-family: 'Poppins', sans-serif;
+    color: #d00000;
+    text-shadow: 1px 1px 1px #6a040f;
+    border: solid 1.8px #9d0208;
+    border-radius: 8px;
+
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+
+    footer .contato .container a{
+        text-decoration: none;
+    }
+
+    footer .contato .container .wats:hover{
+        background-image: linear-gradient( 178.2deg,  rgba(118,8,23,1) 10.9%, rgba(158,12,33,1) 62.6% );
+        color: #fff;
+        font-size: 45px;
+        transition: 0.3s;
+    }
+
+    footer .contato .container .fac:hover{
+        background-image: linear-gradient( 178.2deg,  rgba(118,8,23,1) 10.9%, rgba(158,12,33,1) 62.6% );
+        color: #fff;
+        font-size: 45px;
+        transition: 0.3s;
+    }
+
+    footer .contato .container .tel:hover{
+        background-image: linear-gradient( 178.2deg,  rgba(118,8,23,1) 10.9%, rgba(158,12,33,1) 62.6% );
+        color: #fff;
+        font-size: 45px;
+        transition: 0.3s;
+        cursor:default;
+    }
